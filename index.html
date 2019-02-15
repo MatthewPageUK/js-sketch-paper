@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Javascript Sketch Paper by Matthew Page</title>
+</head>
+<body>
+    <header>
+        <h1>Sketch Paper</h1>
+    </header>
+    <div class="" id="controls">
+        <fieldset>
+            <legend>Colour</legend>
+            <select class="" id="colour">
+                <option value="0,0,0" selected>Black</option>
+                <option value="180,180,180">Grey</option>
+                <option value="200,0,0">Red</option>
+                <option value="0,0,200">Blue</option>
+                <option value="0,200,0">Green</option>
+                <option value="200,200,0">Yellow</option>
+                <option value="200,0,200">Purple</option>
+                <option value="0,200,200">Cyan</option>
+                <option value="255,255,255">White</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Pen Size</legend>
+            <select name="" id="size">
+                <option value="1">Small</option>
+                <option value="5" selected>Mediun</option>
+                <option value="10">Large</option>
+                <option value="30">Larger</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Controls</legend>
+            <p><button onclick="paper.clear()">Clear</button></p>
+        </fieldset>
+    </div>
+    <canvas id="paper"></canvas>
+    <footer>
+        <p>By Matthew Page</p>
+        <p><a href="http://www.mjp.co">View my web site for more fun examples.</a></p>
+    </footer>
+    <script type="text/javascript" src="./js/sketch-pen.js"></script>
+    <script type="text/javascript" src="./js/sketch-paper.js"></script>
+    <script type="text/javascript" src="./js/sketch-demo.js"></script>
+</body>
+</html>
